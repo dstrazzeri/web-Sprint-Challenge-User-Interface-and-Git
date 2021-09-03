@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,7 +66,30 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+header {
+    border: 3px solid orange;
+    width:60%;
+    margin:0 20%;
+    display: flex;
 
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 2%;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    
+}
+.aboutPic {
+ display:flex;
+ justify-content:center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +136,42 @@ p {
     justify-content: center;
 }
 
+.box1 .box2 .box3 .box4 .box5 .box6 .box7 .box8 .box9 .box10 {
+    width:100px;
+    height:100px;
+}
+
+.box1 {
+    background-color:teal;
+}
+.box2 {
+    background-color:gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +184,30 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+.gallery {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.strat {
+border-bottom: 3px dotted gray;
+}
+.wrk {
+    border-bottom: 3px dotted gray;
+}
+.plcs {
+    border-bottom: 3px dotted gray;
+}
+.collab {
+    border-bottom: 3px dotted gray;
+}
+.learnMore {
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    border-radius: 5px;
+    padding:3px 10px;
 }
 
 footer {
