@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+"Let's break this down, Semanitics in its simplest form is "the meaning in language" and HTML stands for Hyper Text Markup Language. So, semantic HTML is adding meaning to our HTML beyond presentation(although, it can help with that too!). Which is essentially, adding meaning to our web page! And that's really the goal isn't it? When you add semantic tags to your document, you're providing additional information about that document. Semantic tags not only allow you to communicate with what people see on your web page but to the browser as well! You'll go on to learn more about different semantics, semtantic tags and how to properly use them, and it might seem like a lot at first, but just like with learning any new language, you can do it if you put the work in!"
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline can be nested into block elements and do not start break into a new line.
+Block usually hold inline elements and can break into a new line. 
 
 3. What are the 4 areas of the box model?
 
+From the center outward, the four areas of the box model are Content, Padding, Border, and Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+In flexbox, align-items:center the flex item's boxes would be centered within the line on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+This might be a longer answer, as git is incredibly valuable to a team of developers. For starters, it's an industry standard for a reason. With git allowing Branch Workflow, devs can create their own branch. Each of these branches function in their own enviornment while changes will be carried out in the codebase. This in itself will make sure the MasterBranch always supports production-quality-code. Git is a distributed VCS, which essentially means it offers a local repository to each dev on and has a history of each commit. In other words, you don't need a network connection to create commits, check changes, inspect previous file versions, or check differences between your commits. This is essential in case you went wrong somewhere, maybe you want to debug, maybe something was working better before. You can check all of that out. Next we have, pull requests! With git you can call a pull request to ask another dev to merge one of their branches into your repository. So lets say I made a few commits, but something isn't working out for me, I can call a pull request to my team lead or a co-worker, from there, we can better discuss the code and review it together. Maybe they will make some changes of their own, and then we integrate with the codebase. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
