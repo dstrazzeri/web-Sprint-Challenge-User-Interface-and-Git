@@ -67,7 +67,6 @@ p {
     line-height: 1.4;
 }
 header {
-    border: 3px solid orange;
     width:60%;
     margin:0 20%;
     display: flex;
@@ -90,6 +89,12 @@ header nav a {
  display:flex;
  justify-content:center;
 }
+.aboutSect {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 2%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -189,30 +194,48 @@ header nav a {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
+    border-top: 1px dashed black;
+    margin:2vh 1vh;
 }
 .strat {
-border-bottom: 3px dotted gray;
+    margin:4% 0;
+border-bottom: 1px dashed black;
+}
+img.gallery {
+    margin:4% 0;
 }
 .wrk {
-    border-bottom: 3px dotted gray;
+    margin:4% 0;
+    border-bottom:  1px dashed black;
 }
 .plcs {
-    border-bottom: 3px dotted gray;
+    margin:4% 0;
+    border-bottom: 1px dashed black;
 }
 .collab {
-    border-bottom: 3px dotted gray;
+    margin:4% 0;
+    border-bottom: 1px dashed black;
 }
 .learnMore {
     color:black;
     text-decoration: none;
     border:2px solid black;
-    border-radius: 5px;
-    padding:3px 10px;
+    border-radius: 8px;
 }
-
+a.learnMore {
+   display:inline-flex;
+    margin: 4% 2%;
+    padding:10px 20px;
+}
+.workTogether {
+    display:flex;
+    flex-direction: column;
+    margin:2vh 1vh;
+}
 footer {
     width: 100%;
     background: black;
+    margin-top:2%;
 }
 
 footer nav {
