@@ -49,11 +49,13 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 h1, h2, h3, h4, h5 {
@@ -61,9 +63,46 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+.homePage {
+    margin: 0 5%;
+}
 
 p {
     line-height: 1.4;
+}
+header {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+    width: 100vh;
+    font-size: 14px;
+    align-items: baseline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 53px;  
+}
+.indexPic {
+        display:flex;
+        justify-content:center;
+        width:100%;
+}
+.aboutPic {
+ display:flex;
+ justify-content:center;
+ width: 100%;
+}
+.aboutSect {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 2%;
 }
 
 .container {
@@ -80,9 +119,12 @@ p {
 }
 
 .top-content .text-container {
+    display:flex;
+    flex-direction:column;
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 0 3%;
+    padding-bottom: 30px; 
+    margin: 20px 5px; 
 }
 
 .middle-content {
@@ -95,16 +137,128 @@ p {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.box15 {
+    display:flex;
+    justify-content:space-evenly;
 }
-
-.middle-content .boxes .box {
+.box610 {
+    display:flex;
+    justify-content:space-evenly;    
+}
+.box1 {
+    background: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+background: gold;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 {
+background: cadetblue;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4 {
+background-color: coral;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5 {
+background-color: crimson;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6 {
+background-color: forestgreen;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7 {
+background-color: darkorchid;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8 {
+background-color: hotpink;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9 {
+background-color: indigo;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10 {
+background-color: dodgerblue;
+width: 12.5%;
+    height: 100px;
+    width: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    width: 100px;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -125,10 +279,52 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+.gallery {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    border-top: 1px dashed black;
+    margin:2vh 1vh;
+}
+.strat{
+    margin:4% 0;
+border-bottom: 1px dashed black;
+}
+.gallery img {
+    margin:4% 0;
+}
+.wrk {
+    margin:4% 0;
+    border-bottom:  1px dashed black;
+}
+.plcs {
+    margin:4% 0;
+    border-bottom: 1px dashed black;
+}
+.collab {
+    margin:4% 0;
+    border-bottom: 1px dashed black;
+}
+.learnMore {
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    border-radius: 8px;
+}
+a.learnMore {
+   display:inline-flex;
+    margin: 4% 2%;
+    padding:10px 20px;
+}
+.workTogether {
+    display:flex;
+    flex-direction: column;
+    margin:2vh 1vh;
+}
 footer {
     width: 100%;
     background: black;
+    margin-top:2%;
 }
 
 footer nav {
@@ -143,4 +339,5 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    font-weight: normal;
 }
